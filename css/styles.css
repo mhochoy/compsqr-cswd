@@ -1,0 +1,69 @@
+body {
+    font-size: 2ecm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10em 2.5em 10em 2.5em;
+}
+
+h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    font-style: oblique;
+    color:darkslategrey;
+}
+
+a:hover {
+    color: darkslateblue;
+}
+
+#daily_take {
+    margin-top: 8em;
+    border-style: dashed;
+    border-radius: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.take {
+    border-style: dashed;
+    border-radius: 1em;
+}
+
+.take #message p {
+    margin-top: 25;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.take #author p {
+    padding: 0;
+    margin: 5;
+    font-style: italic;
+}
+
+.take #date {
+    padding: .5em;
+    margin: 0;
+    font-size: .8em
+}
+
+#agree {
+    padding: 1.75em;
+}
+
+#footnote {
+    padding: 24em 0 0 0;
+}

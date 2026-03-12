@@ -1,0 +1,15 @@
+{
+  "name": "sql_test",
+  "version": "1.0.0",
+  "description": "Just a test for using MySQL in JavaScript",
+  "license": "ISC",
+  "author": "Michael HoCHoy",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mysql2": "^3.16.2"
+  }
+}

@@ -1,0 +1,113 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Classes */
+
+/*** Nav ***/
+.navlist {
+    display: flex;
+    position:relative;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 1.5em;
+    border-bottom: 1px white solid;
+}
+
+.navlist li {
+    list-style: none;    
+}
+
+.navlist a {
+    text-decoration: none;
+    color: white;
+}
+
+/*** News ***/
+
+.hero {
+    margin: 2em;
+    font-style: oblique;
+}
+
+.news {
+    margin: 4em;
+    padding: 4em;
+    border: 1px white dashed;
+}
+
+.news {
+    line-height: 1.5em;
+    word-spacing: 2.5px;
+}
+
+.news h1, .news p {
+    
+}
+
+.store {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border: 1px white dashed;
+    overflow: auto;
+}
+
+.images {
+    display: flex;
+    width: auto;
+    padding-bottom: 4em;
+    border-bottom: 1px white dashed;
+    overflow: auto;
+}
+
+.card {
+    min-width: 18em;
+    max-width: 25em;
+}
+
+.card p {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.card .app-image {
+    max-width: 5em;
+}
+
+.facts {
+    margin: 8em;
+    margin-top: 0;
+    padding: 4em;
+    border: 1px white dashed;
+    line-height: 4em;
+}
+
+.facts ul {
+    position: relative;
+    list-style-position: inside;
+}
+
+.container {
+    margin: 4em;
+    padding: 4em;
+    border: 1px white dashed;
+}
+
+/* ID */
+#header-container {
+    align-items: center;
+}
+
+#header-container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 1.5em;
+    margin-top: 0;
+}
+
+#header-container img {
+    padding: 0;
+    margin: 0;
+}

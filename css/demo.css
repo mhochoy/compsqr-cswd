@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.info {
+    padding: 0em 1em 1em 1em;
+    margin: 0;
+}
+
+.card {
+    padding: 1em;
+    background-color: white;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.card h2 {
+    text-align: center;
+    padding: .25em;
+    background-color: beige;
+}
+
+.card p {
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 1.5em;
+    word-spacing: .15em;
+    font-size: 1.075em;
+    max-width: 1280px;
+}
+
+.card ol {
+    display: grid;
+    border: 1px dashed black;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    overflow:auto;
+}
+
+.card li {
+    line-height: 1.5em;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
