@@ -5,6 +5,11 @@ body {
     padding: 10em 2.5em 10em 2.5em;
 }
 
+form {
+    padding: 4em;
+    border: 1px dashed black;
+}
+
 h1 {
     padding-bottom: 0;
     margin-bottom: 0;
